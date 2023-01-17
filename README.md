@@ -1,5 +1,5 @@
 # antiscam
-A simple python script who sends scammers fake data to confuse them.
+A simple python script who sends scammers fake data to hopefully confuse them.
 
 The wordlist must be in the same directory as the script or specified as a relative path and in UTF-8 format to work without problems.
 
