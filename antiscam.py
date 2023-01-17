@@ -14,9 +14,6 @@
         |___/                                                                   
 
 """
-
-
-
 import names
 import requests
 import random
@@ -47,8 +44,3 @@ if __name__ == "__main__":
     while True:
         send_random_request()
         time.sleep(random.randint(1,500)/10)
-
-       
-
-
-
