@@ -9,4 +9,4 @@ Dont change or delete the time.sleep value.
 
 Dont DoS the scammer server.
 
-only sue for ethical purposes!
+only use for ethical purposes!
