@@ -10,7 +10,7 @@ url: "home.php" + location.search,
 
 --->  data: { user: user1, pass: pass1 } <---
 ----------------------------------------------      
-Then change the variables "email" and "password" so its matches the needed data. in this case it would be:
+Then change the variables "email" and "password" so it match the needed data. in this case it would be:
 
 user1 = names.get_full_name().replace(" ", ".") + "@" + random.choice(emails)
 
