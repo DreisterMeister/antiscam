@@ -1,7 +1,7 @@
 # antiscam
 A simple python script who sends scammers fake data to hopefully confuse them.
 
-Maybe you have to change the payload data. Check the phishing website sourcecode how they want the payload.
+Maybe you have to change the payload data. Check the phishing website source code how they want the payload.
 E.g:
 ----------------------------------------------
 method: "POST",
