@@ -3,13 +3,13 @@ A simple python script who sends scammers fake data to hopefully confuse them.
 
 Maybe you have to change the payload data. Check the phishing website sourcecode how they wannt the payload.
 E.g:
-
+----------------------------------------------
 method: "POST",
 
 url: "home.php" + location.search,
 
 --->  data: { user: user1, pass: pass1 } <---
-      
+----------------------------------------------      
 Then change the variables "email" and "password" so its matches the needed data. in this case it would be:
 
 user1 = names.get_full_name().replace(" ", ".") + "@" + random.choice(emails)
