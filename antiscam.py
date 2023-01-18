@@ -28,12 +28,13 @@ counter = 0
 
 def send_random_request():
     global counter
-# generiert Random Namen und hängt eine zufällige Mailendung an
+# change email, password and payload so its match the payload data on the sourcecode from the phishing site
     email = names.get_full_name().replace(" ", ".") + "@" + random.choice(emails)
     password = ''.join(random.choice(wlist))
     payload = {"email":email,"password":password}
     result = requests.post(target_url, allow_redirects=False, data=payload)
     counter += 1
+# change the email and password variables here too if you changed they
     print(f"Sending No.{counter}: {email} and {password}")
     print(result)
 
